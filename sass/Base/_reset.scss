@@ -6,4 +6,6 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
+    @include styleText($fs-6, $fw-1, $color-black);
+    background-color: $color-white;
 }

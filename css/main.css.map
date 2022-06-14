@@ -1,16 +1,7 @@
 {
-    "version": 3,
-    "mappings": "AGAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB",
-    "sources": [
-        "../sass/main.scss",
-        "../sass/Helpers/_variables.scss",
-        "../sass/Helpers/_mixin.scss",
-        "../sass/Base/_reset.scss",
-        "../sass/Components/_buttons.scss",
-        "../sass/Components/_card.scss",
-        "../sass/Layouts/_header.scss",
-        "../sass/Layouts/_footer.scss"
-    ],
-    "names": [],
-    "file": "main.css"
+"version": 3,
+"mappings": "AAAA,CAAE;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;;AAG1B,UAAW;EACP,WAAW,EAAE,oBAAoB;ECNjC,SAAS,ECaN,IAAI;EDZP,WAAW,ECmBR,GAAG;EDlBN,KAAK,ECFK,OAAO;EFQjB,gBAAgB,EENN,OAAO;;ACFjB,SAAG;EACC,OAAO,EAAE,UAAU;AAGvB,QAAE;EFJF,SAAS,ECUN,IAAI;EDTP,WAAW,ECoBR,GAAG;EDnBN,KAAK,ECFK,OAAO",
+"sources": ["../sass/Base/_reset.scss","../sass/Helpers/_mixin.scss","../sass/Helpers/_variables.scss","../sass/Layouts/_header.scss"],
+"names": [],
+"file": "main.css"
 }

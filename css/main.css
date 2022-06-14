@@ -1,6 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #181818;
+  background-color: #ffffff; }
+
+header li {
+  padding: 0 50px 0 0; }
+header a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #181818; }
+
 /*# sourceMappingURL=main.css.map */

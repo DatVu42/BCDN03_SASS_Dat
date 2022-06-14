@@ -1,10 +1,10 @@
-.phoneBTN-white {
-    @include styleButton($pd-3 + .5, $pd-4, transparent, 2px solid $color-blue-2);
+// .phoneBTN-white {
+//     @include styleButton($pd-3 + .5, $pd-4, transparent, 2px solid $color-blue-2);
 
-    @include styleText($fs-1, $fw-2, $color-blue-2);
+//     @include styleText($fs-1, $fw-2, $color-blue-2);
 
-    transition: all .5s;
-    &:hover {
-        @include styleButtonHover($color-blue-2, $color-blue-2, $color-white-3);
-    }
-}
+//     transition: all .5s;
+//     &:hover {
+//         @include styleButtonHover($color-blue-2, $color-blue-2, $color-white-3);
+//     }
+// }

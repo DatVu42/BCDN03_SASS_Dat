@@ -17,18 +17,3 @@
     border-color: $bd;
     color: $color;
 }
-
-// $screen: tên màn hình (vd: medium...)
-@mixin responsive($screen) {
-    @if(map-has-key($map: $breakpoints, $key: $screen)) {
-        // tìm thấy mành hình
-        $value: map-get($map: $breakpoints, $key: $screen);
-        @media screen and (max-width: $value) {
-            // đoạn code responsive cần xử lý theo màn hình khi gọi mixin
-            @content;
-        }
-    }
-    @else {
-        @error "Screen doesn't exist"
-    }
-}
